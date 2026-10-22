@@ -1,0 +1,17 @@
+# Data files are not committed — rebuild them by running the notebooks
+*.csv
+!requirements.txt
+
+# Archives
+*.zip
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
